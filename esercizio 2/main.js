@@ -14,11 +14,20 @@ let listaInvitati = document.getElementById("stampa")
 
 
 
-let randomElementName = Math.floor((Math.random() * nomeInvitati.length));
 
-let randomElementSurname = Math.floor(Math.random() * cognomeInvitati.length);
 
-listaInvitati.innerHTML += ` <div>${nomeInvitati[randomElementName]} ${cognomeInvitati[randomElementSurname]}</div>`
+for (let i = 0; i < nomeInvitati.length; i++) {
+
+    let randomElementName = Math.floor((Math.random() * nomeInvitati.length));
+
+    let randomElementSurname = Math.floor(Math.random() * cognomeInvitati.length);
+    
+    listaInvitati.innerHTML += ` <div>${nomeInvitati[randomElementName]} ${cognomeInvitati[randomElementSurname]}</div>`
+}
+
+
+
+
 
 
 
