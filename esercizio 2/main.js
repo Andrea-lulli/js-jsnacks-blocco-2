@@ -1,5 +1,3 @@
-
-
 // *Snack2*
 // Generatore di “nomi cognomi” casuali del grande gatsby:
 // Abbiamo una lista di nomi e una lista di cognomi, e da 
