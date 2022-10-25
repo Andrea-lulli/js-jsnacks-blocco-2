@@ -1,24 +1,5 @@
 
 
-// let numeri = parseInt(prompt("Inseirisci Numero"));
-
-// let stampaPari = document.getElementById("stampapari")
-
-// let stampaDispari = document.getElementById("stampadispari")
-
-
-
-// if (numeri % 2 == 0) {
-
-//     stampaPari.innerHTML = `${numeri} è un numero pari`
-
-// } else if (numeri % 3 == 0) {
-
-//     stampaDispari.innerHTML = `${1 + numeri} è un numero dispari +1`
-// }
-
-
-
 // *Snack2*
 // Generatore di “nomi cognomi” casuali del grande gatsby:
 // Abbiamo una lista di nomi e una lista di cognomi, e da 
@@ -27,3 +8,23 @@
 // e un "cognome" delle liste precedentemente dette, scelti 
 // in modo casuale.
 
+let nomeInvitati = ["andrea", "luca", "mirko", "gigi", "alberto"];
+
+let cognomeInvitati = ["rossi", "verde", "russo", "ferrari", "bianchi"];
+
+let listaInvitati = document.getElementById("stampa")
+
+
+
+let randomElementName = Math.floor(Math.random() * nomeInvitati.length);
+
+let randomElementSurname = Math.floor(Math.random() * cognomeInvitati.length);
+
+listaInvitati.innerHTML += ` <div>${nomeInvitati[randomElementName]} ${cognomeInvitati[randomElementSurname]}</div>`
+
+
+
+   
+
+
+   
