@@ -5,14 +5,10 @@
    
 let numeri = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
-let stampa = document.getElementById("stampa")
-let numeriDispari = 0
+let numeri2 = [0, 1, 2, 3, 4, 5, 6, 7];
 
-for (let i = 0; i < numeri.length; i++) {
-if (numeri % 2 != 0) {
+let aggiungi =  parseInt(prompt("Aggiungi ilnumero"));
 
-    numeriDispari = numeriDispari + numeri[i]
-} 
+if (numeri.length > numeri2.length){
+    console.log(numeri2.push("aggiungi"));
 }
-
-stampa.innerHTML = numeriDispari
