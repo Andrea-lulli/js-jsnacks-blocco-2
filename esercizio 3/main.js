@@ -9,10 +9,10 @@ let stampa = document.getElementById("stampa")
 let numeriDispari = 0
 
 for (let i = 0; i < numeri.length; i++) {
-if (numeri % 2 != 0) {
+if (i % 2 != 0) {
 
     numeriDispari = numeriDispari + numeri[i]
 } 
+stampa.innerHTML = numeriDispari
 }
 
-stampa.innerHTML = numeriDispari
