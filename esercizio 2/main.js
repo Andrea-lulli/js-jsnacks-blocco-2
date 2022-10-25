@@ -14,7 +14,7 @@ let listaInvitati = document.getElementById("stampa")
 
 
 
-let randomElementName = Math.floor(Math.random() * nomeInvitati.length);
+let randomElementName = Math.floor((Math.random() * nomeInvitati.length));
 
 let randomElementSurname = Math.floor(Math.random() * cognomeInvitati.length);
 
@@ -22,7 +22,10 @@ listaInvitati.innerHTML += ` <div>${nomeInvitati[randomElementName]} ${cognomeIn
 
 
 
-   
 
 
-   
+
+
+
+
+
