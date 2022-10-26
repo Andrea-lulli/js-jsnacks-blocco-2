@@ -13,7 +13,7 @@ for (let i = 0; i < 15; i++) {
 
     if (numeri.length > numeri2.length) {
         console.log(numeri2.push("aggiungi"));
-    } else if (numeri.length = numeri2.length) {
+    } else if (numeri.length == numeri2.length) {
         console.log("stesso numero elementi");
         console.log(numeri.push("aggiungi"))
     }
